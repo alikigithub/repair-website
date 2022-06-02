@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex img {
+  vertical-align: middle;
+}
+
+.flex {
+  display: flex;
+  line-height: 50px;
+  color: white;
+}
+
+header {
+  background-color: hsl(211deg 96% 17%);
+}
+
+.child:first-child {
+  flex-grow: 7;
+}
+
+.child {
+  flex-grow: 1;
+}
+
+nav {
+  background-color: hsl(20deg 98% 56%);
+}
+
+nav li:first-child {
+  flex-grow: 10;
+}
+
+nav li {
+  list-style-type: none;
+  flex-grow: 1;
+}
+
+#logoBox {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -35px;
+  left: 32px;
+  text-align: center;
+  z-index: 1;
+}
+
+#logoBox span {
+  color: black;
+  position: relative;
+  top: 95px;
+  font-size: 1.2em;
+}
+
+#logoBox img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+#logoBox span {
+  color: hsl(211deg 96% 17%);
+  font-weight: bold;
+}
+.section1 {
+  background-image: url("training.jpg");
+  min-height: 526px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #002c5b;
+  background-blend-mode: overlay;
+}
+aside {
+  display: flex;
+  height: 526px;
+  align-items: center;
+}
+.asideleft {
+  flex-grow: 2;
+  width: 300px;
+  padding-left: 45px;
+}
+.asiderigh {
+  flex-grow: 4;
+}
+.asideleft h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 70px;
+  color: white;
+}
+.asideleft p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  word-spacing: 5px;
+  padding-top: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.buttonLive,
+.buttonbuy {
+  padding: 18px 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.buttonLive {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.buttonbuy {
+  background-color: #fc6a20;
+
+  border: 1px solid #fc6a20;
+  margin-left: 17px;
+}
+.buttonHendler {
+  padding-top: 45px;
+}
+.DemoHeading {
+  margin: auto;
+  width: fit-content;
+  padding: 50px 50px;
+}
+
+.DemoHeading h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  color: #002c5b;
+}
+.DemoHeading ol li {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+.one {
+  height: 2px;
+  width: 42px;
+  border-top: 7px solid #fc6a20;
+}
+.DemoHeading ol {
+  margin: auto;
+  width: fit-content;
+}
+.DemoHeading li:nth-child(2) {
+  width: 42px;
+  border-top: 7px solid #fc6a20;
+  margin-left: -5px;
+}
+.DemoHeading li:nth-child(1) {
+  width: 42px;
+  border-top: 7px solid #002c5b;
+}
+.DemoHeading p:nth-child(1) {
+  margin: auto;
+  width: fit-content;
+  color: gray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.DemoHeading h1:nth-child(3) {
+  margin: auto;
+  width: fit-content;
+}
+.DemoHeading H1 {
+  word-spacing: 15px;
+}
+.DemoHeading h1:nth-child(2) {
+  margin-top: 20px;
+}
+.DemoHeading ol li {
+  margin-top: 25px;
+}
+.section2 {
+  margin: auto;
+  width: fit-content;
+}
+.testimonialmain {
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.testimonial {
+  max-width: 320px;
+  padding: 15px;
+  min-height: 300px;
+  box-shadow: 0px 0px 18px -8px gray;
+  text-align: left;
+  margin-left: 15px;
+}
+.testimonial img {
+  width: 100%;
+  height: 200px;
+}
+.testimonial h1 {
+  color: #002c5b;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* margin: auto;
+  width: fit-content; */
+}
+.testimonial p {
+  color: gray;
+
+  line-height: 25px;
+  word-spacing: 08px;
+  margin: auto;
+  width: fit-content;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+.testimonial button {
+  background-color: #f5f5f5;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 115px;
+  padding-left: 25px;
+  color: #002c5b;
+  font-size: 16px;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  word-spacing: 5px;
+  font-weight: bold;
+}
+.testimonial button:hover {
+  background-color: #fc6a20;
+}
+.pointingbutton {
+  color: white;
+  background-color: #fc6a20;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-left: -5px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
